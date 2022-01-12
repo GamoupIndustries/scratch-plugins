@@ -7,7 +7,7 @@ class SaveSystem {
         {
           opcode: "save",
           blockType: Scratch.BlockType.REPORTER,
-          text: "save"
+          text: "Save"
         }
       ]
     }
