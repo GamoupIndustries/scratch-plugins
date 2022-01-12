@@ -6,20 +6,15 @@ class SaveSystem {
       blocks: [
         {
           opcode: "save",
-          blockType: Scratch.BlockType.
-        },
-        {
-          opcode: "load"
+          blockType: Scratch.BlockType.REPORTER,
+          text: "save"
         }
       ]
     }
   }
   save() {
-    
-  }
-  load() {
-    
+    return "save";
   }
 }
 
-Scratch.extensions
+Scratch.extensions.register(new SaveSystem());
